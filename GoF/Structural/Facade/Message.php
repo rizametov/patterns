@@ -12,4 +12,9 @@ class Message
     {
         $this->content = $content;
     }
+
+    public function __toString()
+    {
+        return $this->content;
+    }
 }

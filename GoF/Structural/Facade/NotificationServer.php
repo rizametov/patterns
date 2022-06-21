@@ -18,6 +18,6 @@ class NotificationServer
 
     public function send(AuthToken $token, Message $message, string $target): void
     {
-        echo "Sending a message... \n";
+        echo "Sending a message $message to $target\n";
     }
 }
